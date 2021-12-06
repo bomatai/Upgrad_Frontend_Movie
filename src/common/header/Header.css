@@ -1,0 +1,64 @@
+.topnav {
+  overflow: hidden;
+  background-color: #222;
+  height: 36px;
+  padding: 8px 32px 8px 16px;
+}
+
+.header-logo {
+  background-color: #ff7f7f;
+  height: 35px;
+}
+
+.header-logo-animation {
+  animation: logo-anim 8s infinite linear;
+}
+
+.header-button {
+  float: right;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.bookshow-button {
+  float: right;
+  margin-right: 8px;
+}
+
+#header {
+  background-color: #222;
+  height: 36px;
+  padding: 8px 32px 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header .logo {
+  height: 35px;
+  animation: logo-anim 8s linear 0s infinite;
+}
+
+@keyframes logo-anim {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+#header .tabs {
+  padding: 0.5rem;
+}
+
+#header .actions > button:last-child {
+  margin-left: 0.5rem;
+}
+
+.auth {
+  max-width: 300px;
+  text-align: center;
+}
